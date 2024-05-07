@@ -12,7 +12,7 @@ import SwiftData
 struct HotelRatingsApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Item.self, Hotel.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

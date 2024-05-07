@@ -15,6 +15,7 @@
 		CAD715862BEAF182000EB35C /* HotelRatingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD715852BEAF182000EB35C /* HotelRatingsTests.swift */; };
 		CAD715902BEAF182000EB35C /* HotelRatingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7158F2BEAF182000EB35C /* HotelRatingsUITests.swift */; };
 		CAD715922BEAF182000EB35C /* HotelRatingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD715912BEAF182000EB35C /* HotelRatingsUITestsLaunchTests.swift */; };
+		CAD715A12BEAF1A8000EB35C /* HotelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD715A02BEAF1A8000EB35C /* HotelListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		CAD7158B2BEAF182000EB35C /* HotelRatingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelRatingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD7158F2BEAF182000EB35C /* HotelRatingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRatingsUITests.swift; sourceTree = "<group>"; };
 		CAD715912BEAF182000EB35C /* HotelRatingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRatingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAD715A02BEAF1A8000EB35C /* HotelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				CAD715722BEAF181000EB35C /* HotelRatingsApp.swift */,
 				CAD715742BEAF181000EB35C /* ContentView.swift */,
+				CAD715A02BEAF1A8000EB35C /* HotelListView.swift */,
 				CAD715762BEAF181000EB35C /* Item.swift */,
 				CAD715782BEAF182000EB35C /* Assets.xcassets */,
 				CAD7157A2BEAF182000EB35C /* Preview Content */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD715752BEAF181000EB35C /* ContentView.swift in Sources */,
+				CAD715A12BEAF1A8000EB35C /* HotelListView.swift in Sources */,
 				CAD715772BEAF181000EB35C /* Item.swift in Sources */,
 				CAD715732BEAF181000EB35C /* HotelRatingsApp.swift in Sources */,
 			);
